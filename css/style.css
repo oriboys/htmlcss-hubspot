@@ -18,6 +18,9 @@
   clear: both;
 }
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
 /* inizio header */
 
 header{
@@ -66,7 +69,7 @@ header{
   line-height: 100px;
   display: inline-block;
   color: grey;
-  width: 18%;
+  width: 25%;
   /* height: 20px; */
   /* border-right: 2px solid black; */
 
@@ -182,6 +185,56 @@ ul.listamenù li a{
 /* jumbotron */
 .jumbotron{
   width: 100%;
-  height: 1000px;
+  height: 560px;
   background: blue;
+}
+
+.jumbotron-container{
+  width: 90%;
+  height: 100%;
+  margin-left: 10%;
+  background-color: #fdf3ee;
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 100% 100%;
+  position: relative;
+}
+
+/* titolo jumbotron */
+.title-jumbotron{
+  position: absolute;
+  left: 0;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 40%;
+}
+
+.title-jumbotron p{
+  margin: 30px 0;
+  line-height: 30px;
+  color: grey;
+}
+
+.title-jumbotron h1{
+  font-size: 50px;
+  color: grey;
+}
+
+.clickme{
+  margin-bottom: 30px;
+}
+
+.clickme a{
+  background-color: orange;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.title-jumbotron span{
+  font-size: 10px;
+  color: grey;
 }
