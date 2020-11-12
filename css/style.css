@@ -8,8 +8,103 @@
   float: left;
 }
 
+.float-right{
+  float: right;
+}
+
 .claerfix:after{
   content: "";
   display: table;
   clear: both;
+}
+
+/* inizio header */
+
+header{
+  width: 100%;
+  background: lightgrey;
+}
+
+/* struttura barra fixed */
+.nav-principal{
+  width: 100%;
+  height: 100px;
+  /* position: fixed; */
+  /* background: lightblue; */
+}
+
+.principal-container{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  background-color: lightblue;
+}
+
+.principalsx{
+  width: 50%;
+  height: 100%;
+  background-color: red;
+}
+
+.principaldx{
+  width: 50%;
+  height: 100%;
+  background-color: green;
+}
+
+/* contenuto barra fixed parte sx */
+
+.lingua{
+  line-height: 100px;
+  display: inline-block;
+  color: lightgrey;
+  width: 25%;
+  border-right: 2px solid black;
+}
+.lingua i{
+  display: inline-block;
+}
+
+.lingua a i{
+  color: lightgrey;
+}
+
+
+.lingua p{
+  display: inline-block;
+}
+
+.contact{
+  display: inline-block;
+  line-height: 100px;
+  padding-left: 25px;
+}
+
+.contact a{
+  text-decoration: none;
+  color: lightgrey;
+}
+
+/* contenuto barra fixed parte dx */
+
+
+
+/* barra menù */
+.nav-secondary{
+  width: 100%;
+  height: 100px;
+  /* background: red; */
+}
+
+.secondary-container{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  /* background-color: black; */
+}
+
+.jumbotron{
+  width: 100%;
+  height: 600px;
+  background: blue;
 }
