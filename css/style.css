@@ -22,14 +22,15 @@
 
 header{
   width: 100%;
-  background: lightgrey;
+  /* background: lightgrey; */
 }
 
 /* struttura barra fixed */
 .nav-principal{
   width: 100%;
   height: 100px;
-  border-bottom: 2px solid lightgrey;
+  background-color: rgb(208, 232, 242);
+  border-bottom: 2px solid grey;
   /* position: fixed;
   top: 100%; */
   /* background: lightblue; */
@@ -39,19 +40,18 @@ header{
   width: 80%;
   height: 100%;
   margin: auto;
-  background-color: lightblue;
+  /* background-color: rgb(164, 213, 213); */
 }
 
 .principalsx{
   width: 50%;
   height: 100%;
-  background-color: red;
 }
 
 .principaldx{
   width: 50%;
   height: 100%;
-  background-color: green;
+  /* background-color: green; */
   text-align: right;
   line-height: 100px;
 }
@@ -65,16 +65,21 @@ header{
 .lingua{
   line-height: 100px;
   display: inline-block;
-  color: lightgrey;
-  width: 25%;
-  border-right: 2px solid black;
+  color: grey;
+  width: 18%;
+  /* height: 20px; */
+  /* border-right: 2px solid black; */
+
+
 }
 .lingua i{
   display: inline-block;
 }
 
 .lingua a i{
-  color: lightgrey;
+  color: grey;
+  padding-right: 30px;
+  border-right: 2px solid grey;
 }
 
 
@@ -90,7 +95,7 @@ header{
 
 .contact a{
   text-decoration: none;
-  color: lightgrey;
+  color: grey;
 }
 
 /* contenuto barra fixed parte dx */
@@ -139,9 +144,42 @@ header{
   width: 80%;
   height: 100px;
   margin: auto;
-  background-color: black;
+  background-color: white;
 }
 
+.logo{
+  width: 50%;
+  height: 100%;
+  line-height: 100px;
+  /* background-color: black; */
+}
+
+/* menù */
+
+.menù{
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+  text-align: right;
+  line-height: 100px;
+}
+
+.listamenù li{
+  list-style: none;
+  display: inline-block;
+  padding-left: 12px;
+  color: grey;
+}
+
+ul.listamenù li a{
+  padding-left: 8px;
+  color: grey;
+  text-decoration: none;
+}
+
+
+
+/* jumbotron */
 .jumbotron{
   width: 100%;
   height: 1000px;
