@@ -348,6 +348,7 @@ ul.listamenù li a{
   transform: translateY(-50%);
 }
 
+
 .elenco ul li{
   display: inline-block;
   padding-right: 20px;
@@ -359,10 +360,21 @@ ul.listamenù li a{
 
 .sez22content h3{
   padding-bottom: 30px;
-  font-size: 20px;
+  font-size: 24px;
+  color: grey;
+}
+.sez22content p{
+  line-height: 30px;
+  width: 70%;
   color: grey;
 }
 
+.sez22content h4{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: grey;
+  font-size: 18px;
+}
 
 
 /* sez3 */
