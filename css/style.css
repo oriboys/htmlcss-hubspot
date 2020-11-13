@@ -84,7 +84,7 @@ header{
 
 .lingua a i{
   color: grey;
-  padding-right: 30px;
+  padding-right: 40px;
   border-right: 2px solid grey;
 }
 
@@ -96,7 +96,6 @@ header{
 .contact{
   display: inline-block;
   line-height: 100px;
-  padding-left: 25px;
 }
 
 .contact a{
@@ -258,4 +257,151 @@ ul.listamenù li a{
   position: absolute;
   bottom: 0;
   z-index: 1;
+}
+
+
+/* inizio main */
+
+.section1{
+  width: 80%;
+  height: 1000px;
+  background-color: black;
+  margin: auto;
+
+}
+
+
+/* sez1 */
+
+.sez1{
+  width: 100%;
+  height: 400px;
+  background-color: yellow;
+  text-align: center;
+}
+
+.imgsez1 img{
+  width: 20%;
+  margin: 20px 0;
+}
+
+.sez1title{
+  margin-bottom: 20px;
+}
+
+.sez1text{
+  width: 60%;
+  margin: auto;
+  line-height: 30px;
+}
+
+/* sez2 */
+
+.sez2{
+  width: 100%;
+  height: 300px;
+  background-color: red;
+}
+
+.sez21{
+  width: 30%;
+  height: 100%;
+  background-color: white;
+  position: relative;
+}
+
+.sez21content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.sez21content img{
+  width: 100%;
+}
+.sez21content div{
+  margin: 30px;
+}
+
+.sez21content div a{
+  background-color: orange;
+  padding: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+/* seconda sezione della sezione 2 */
+
+.sez22{
+  width: 70%;
+  height: 100%;
+  background-color: lightblue;
+  position: relative;
+}
+
+.sez22content{
+  position: absolute;
+  top: 50%;
+  /* left: 50%; */
+  transform: translateY(-50%);
+}
+
+.elenco ul li{
+  display: inline-block;
+  padding-right: 20px;
+}
+.elenco ul li i {
+  padding-right: 10px;
+  color: orange;
+}
+
+.sez22content h3{
+  padding-bottom: 30px;
+  font-size: 20px;
+  color: grey;
+}
+
+
+
+/* sez3 */
+
+.sez3{
+    width: 100%;
+    height: 700px;
+    background-color: green;
+}
+
+.sez31{
+  width: calc(100% / 3);
+  height: 700px;
+  background-color: black;
+  position: relative;
+
+}
+
+.sez32{
+  width: calc(100% / 3);
+  height: 700px;
+  background-color: pink;
+  position: relative;
+}
+
+
+.sez33{
+  width: calc(100% / 3);
+  height: 700px;
+  background-color: yellow;
+  position: relative;
+}
+
+.stsez{
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
