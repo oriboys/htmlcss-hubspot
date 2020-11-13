@@ -467,6 +467,7 @@ ul.listamenù li a{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  box-shadow: 1px 1px 10px rgb(173, 233, 246);
 }
 
 /* bottone */
@@ -622,4 +623,113 @@ ul.listamenù li a{
 
 .riquadro i{
   font-size: 30px;
+}
+
+/* section 3 */
+
+.section3{
+  width: 100%;
+  height: 600px;
+  background-color: black;
+}
+
+.section3container{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  background-color: white;
+}
+
+/* sezione superiore */
+
+.sezionesuperiore{
+  width: 100%;
+  height: 35%;
+  background: red;
+}
+
+.latosx{
+  width: 40%;
+  height: 100%;
+  background-color: green;
+  position: relative;
+}
+
+
+.latodx{
+  width: 60%;
+  height: 100%;
+  background-color: blue;
+  position: relative;
+}
+
+/* lato sinistro */
+
+.contentlatosx{
+  color: grey;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.contentlatosx h3{
+  width: 40%;
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+
+.contentlatosx p{
+  padding-top: 10px;
+  width: 80%;
+  line-height: 20px;
+}
+
+/* parte dx */
+
+.contentlatodx{
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.contentlatodx img{
+  width: calc(23%);
+  /* padding-top: 10px; */
+}
+
+
+/* sezione inferiore */
+
+.sezioneinferiore{
+  width: 100%;
+  /* height: 65%; */
+  background-color: red;
+}
+
+.latosx2{
+  width: 50%;
+  height: 100%;
+  background-color: yellow;
+}
+
+.latodx2{
+  width: 50%;
+  height: 100%;
+  background-color: pink;
+  position: relative;
+}
+
+
+/* lato destro */
+
+.imginfdx{
+text-align: right;
+}
+
+.imginfdx img{
+  width: 60%;
 }
