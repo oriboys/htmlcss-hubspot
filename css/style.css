@@ -632,14 +632,14 @@ ul.listamenù li a{
 .section3{
   width: 100%;
   /* height: 600px; */
-  background-color: black;
+  /* background-color: black; */
 }
 
 .section3container{
   width: 80%;
   height: 100%;
   margin: auto;
-  background-color: white;
+  /* background-color: white; */
 }
 
 /* sezione superiore */
@@ -743,7 +743,7 @@ ul.listamenù li a{
 .latosx2{
   width: 50%;
   height: 100%;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .latodx2{
@@ -790,8 +790,92 @@ text-align: right;
   width: 350px;
 }
 
+/* inizio footer */
 footer{
   width: 100%;
-  height: 500px;
+  height: 700px;
   background-color: red;
 }
+
+
+.section1footer{
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  background-color: green;
+}
+
+.section2footer{
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  background-color: pink;
+
+}
+
+  /* section 1 footer */
+
+  .section1footer div.bloccofooter{
+    width: 25%;
+    /* height: 100%; */
+    padding-top: 30px;
+  }
+
+  .section1footer div.opzionifooter div.bloccofooter h5{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 30px;
+
+  }
+
+  .section1footer  div.opzionifooter div.bloccofooter ul li{
+    list-style: none;
+    padding-bottom: 20px;
+  }
+
+  .section1footer div.opzionifooter div.bloccofooter ul li a{
+    text-decoration: none;
+    color: grey;
+  }
+
+  .section1footer div.opzionifooter div.bloccofooter ul li a:hover{
+    text-decoration: underline;
+    color: lightblue;
+  }
+
+  .section1footer div.opzionifooter div.bloccofooter ul li a.chs{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+.section1footer div.opzionifooter div.bloccofooter ul li.spazio{
+  padding-bottom: 100px;
+}
+   a.social{
+    padding-right: 20px;
+  }
+
+
+  /* lingue */
+
+div.lingue{
+  padding-bottom: 20px;
+}
+
+  div.lingue ul{
+    /* width: 100%; */
+  text-align: center;
+}
+
+  div.lingue ul li{
+  display: inline-block;
+  list-style:  none;
+  padding-left: 10px;
+  }
+
+  div.lingue ul li a {
+   text-decoration: none;
+   color: grey;
+  }
