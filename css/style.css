@@ -196,22 +196,23 @@ ul.listamenù li a{
 }
 
 .jumbotron-container{
-  width: 90%;
+  width: 100%;
   height: 100%;
-  margin-left: 10%;
+  /* margin-left: 10%; */
   /* background-color: #fdf3ee; */
   background-image: url(../img/jumbotron.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 90%;
   background-position: 100% 100%;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 
 }
 
 /* titolo jumbotron */
 .title-jumbotron{
+  margin-left: 10%;
   position: absolute;
   left: 0;
   top: 40%;
@@ -257,7 +258,7 @@ ul.listamenù li a{
   background-color: #bce9e4;
   position: absolute;
   bottom: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 
@@ -630,7 +631,7 @@ ul.listamenù li a{
 
 .section3{
   width: 100%;
-  height: 600px;
+  /* height: 600px; */
   background-color: black;
 }
 
@@ -645,7 +646,7 @@ ul.listamenù li a{
 
 .sezionesuperiore{
   width: 100%;
-  height: 35%;
+  height: 200px;
   /* background: red; */
 }
 
@@ -735,8 +736,8 @@ ul.listamenù li a{
 
 .sezioneinferiore{
   width: 100%;
-  /* height: 65%; */
-  background-color: red;
+  height: 450px;
+  /* background-color: red; */
 }
 
 .latosx2{
@@ -774,8 +775,8 @@ ul.listamenù li a{
 }
 
 .latosx2 div.clickme{
-  padding-top: 50px;
-  padding-bottom: 30px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 
@@ -786,7 +787,7 @@ text-align: right;
 }
 
 .imginfdx img{
-  width: 50%;
+  width: 350px;
 }
 
 footer{
